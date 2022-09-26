@@ -2,37 +2,172 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contactContainer
+{
+  width: 80%;
+  margin: auto;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.upperContainer
+{
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.containerHeader
+{
+  width: 100%;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.containerHeading
+{
+  font-size: 2vw;
+  margin: 0%;
+  font-weight: bolder;
+}
+
+.addContactBtn
+{
+  font-size: 2vw;
+}
+
+
+.contactDisplayDiv
+{
+  width: 100%;
+  margin: auto;
+}
+
+.contactDisplayHeader
+{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  font-size: 2vw;
+}
+
+hr
+{
+  margin: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.belowContainer
+{
+  width: 100%;
+}
+
+.belowContainerHeading
+{
+  font-size: 2vw;
+  margin: 0%;
+  font-weight: bolder;
+}
+
+.addContactForm
+{
+  width: 100%;
+  text-align: end;
+}
+
+.inputDiv
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 0%;
+}
+
+.addContactForm label
+{
+  width: 20%;
+  text-align: start;
+  font-size: 1.6vw;
+  font-weight: bolder;
+}
+
+.addContactForm input
+{
+  width: 80%;
+  font-size: 1.6vw;
+}
+
+.submitFormBtn
+{
+  font-size: 2vw;
+  width: 20%;
+  background-color: rgb(12, 141, 234);
   color: white;
+  border: none;
+  padding: 1% 0%;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.mainContactDisplayDiv
+{
+  padding: 3% 0%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contactRow
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 0%;
+}
+
+.contactRow p
+{
+  font-size: 1.6vw;
+  margin: 1% 0%;
+  text-align: start;
+}
+
+.contactNameDisplay
+{
+  width: 20%;
+}
+
+.contactAddressDisplay
+{
+  width: 70%;
+}
+
+.deleteBtn
+{
+  font-size: 1.6vw;
+  border: none;
+  background-color: rgb(241, 37, 37);
+  color: white;
+  font-weight: bolder;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.deleteBtn:hover
+{
+  background-color: rgb(243, 86, 86);
 }
